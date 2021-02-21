@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Nav from './nav';
-import styles from '../styles/LayOut.module.css';
+import styles from '../styles/Layout.module.css';
 
 interface LayOutProps {
     metaDataProps? :{
