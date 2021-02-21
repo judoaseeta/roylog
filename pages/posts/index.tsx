@@ -21,7 +21,6 @@ export const getStaticProps: GetStaticProps = async (context) => {
 }
 
 const Posts = ({ queries }: InferGetStaticPropsType<typeof getStaticProps>) => {
-    console.log(queries);
     return <LayOut
     metaDataProps={{
         title: "Roy Choi's posts. - 로이 최의 포스트"
