@@ -1,0 +1,54 @@
+:root {
+  --BG :#fde9eb;
+  --NOTIFY: #f07821;
+  --EDGE: #ddc1c1;
+  --PRIMARY: #000000;
+  --SECONDARY: #2e2e2e;
+  --SELECTED: #f0191c;
+  --THIRD: #edce8e;
+  --SELECTION: #fccaa6;
+  --CONTRAST: #dcdde1;
+  --LIST: #eb6391;
+}
+::selection {
+  background-color: var(--SELECTION);
+}
+::-moz-selection {
+  background-color: var(--SELECTION);
+}
+@font-face {
+  font-family: "NanumGothicRegular";
+  src: url("/fonts/NanumGothic-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NanumGothicBold";
+  src: url("/fonts/NanumGothic-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NotoSerif";
+  src: url("/fonts/NotoSerifKR-ExtraLight.otf") format("opentype");
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: var(--BG);
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: NanumGothicBold;
+}
+p {
+  font-family: NanumGothicRegular;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+

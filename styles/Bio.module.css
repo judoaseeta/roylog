@@ -1,0 +1,13 @@
+.container {
+    width: 65vw;
+    padding: 1em 2em;
+    border-left: 0.1em;
+    border-right: 0.1em;
+    border-style: solid;
+    border-color: var(--EDGE);
+    border-top: none;
+    border-bottom: none;
+}
+.container p {
+    font-size: 0.8rem;
+}
